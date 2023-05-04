@@ -35,7 +35,8 @@ app.post("/api/notes", (req, res) => {
 
   // Extracted new note from request body.  
   const newNote = req.body;
-  newNote.id = uuid()
+  const newNoteid = uuid()
+  newNote.id = newNoteid
   // Pushed new note in notes file 'db.json'
   notes.push(newNote);
 
@@ -51,7 +52,30 @@ app.post("/api/notes", (req, res) => {
   res.status(201).json(notes);
 });
 
+app.delete('/api/notes/:id', (req, res) => {
+  const id = (req.params.id);
 
+  const noteIndex = notes.findIndex(p => {
+    // console.log(p.id)
+    // console.log(id)
+    return p.id == id
+  });
+
+  notes.splice(noteIndex, 1);
+  const deleteNote = JSON.stringify(notes);
+  // console.log(notes)
+  // console.log(noteIndex)
+
+  // Written notes data to 'db.json' file
+  fs.writeFile(path.join(__dirname, `./db/db.json`), deleteNote, (err) => {
+
+    if (err) {
+      console.error(err)
+    }
+  })
+
+  return res.send();
+});
 
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
