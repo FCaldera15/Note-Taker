@@ -31,7 +31,7 @@ N/A
 # Tests
 Link is [here](https://drive.google.com/file/d/1Bdix8ntO_vZc7EVj_-XAlXDvgTw0m3Xh/view) <br />
 
-![alt text](./Untitled_%20Apr%2026%2C%202023%202_58%20PM.gif)
+![alt text](/Untitled_%20May%204%2C%202023%203_21%20PM.gif)
 
 
 # Questions
