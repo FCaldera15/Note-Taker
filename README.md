@@ -12,13 +12,15 @@
 </ul>
 
 # Description
-This repository was made to help students like myself implement jest and inquirer into javascript, it also pushes us into working on the back-end and view how it operates and its functionalities.
+This repository was made to help students like myself implement Express.js and npm moduels into a project. It will further our knowledge into the backend and start connecting it into the frontend as well.
 
 # Installation
-jest and inquirer
+Node.js <br />
+Express.js<br />
+npm modules<br />
 
 # Usage
-This application enables users to create a logo using the questions and input without having to create the basic format. 
+This application enables users to create, save or delete notes. 
 
 # License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -27,7 +29,10 @@ This application enables users to create a logo using the questions and input wi
 N/A
 
 # Tests
-https://drive.google.com/file/d/1-9pGi2K1rGT9OD5z6KTXrzfzkGHkJi9y/view
+Link is [here](https://drive.google.com/file/d/1Bdix8ntO_vZc7EVj_-XAlXDvgTw0m3Xh/view) <br />
+
+![alt text](./Untitled_%20Apr%2026%2C%202023%202_58%20PM.gif)
+
 
 # Questions
 Username: FCaldera15 <br />
